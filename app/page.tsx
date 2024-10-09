@@ -10,10 +10,10 @@ const MainPage = () => {
     <div>
       <h1>Assignment#1 by Sir Hamza Alvi</h1>
       <ul>
-        <li><Link href="/Home" style={{color:"red"}}>Home</Link></li>
-        <li><Link href="/About" style={{color:"red"}}>About</Link></li>
-        <li><Link href="/Contact" style={{color:"red"}}>Contact</Link></li>
-        <li><Link href="/Service" style={{color:"red"}}>Service</Link></li>
+        <li><Link href="/Home" style={{color:"red"}} target="_blank">Home</Link></li>
+        <li><Link href="/About" style={{color:"red"}} target="_blank">About</Link></li>
+        <li><Link href="/Contact" style={{color:"red"}} target="_blank">Contact</Link></li>
+        <li><Link href="/Service" style={{color:"red"}} target="_blank">Service</Link></li>
       </ul>
     </div>
   );
